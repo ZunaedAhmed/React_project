@@ -3,7 +3,7 @@ export const isAgeLessThanTen = (dob: Date): boolean =>{
     if(dob){
         dob = new Date(dob);
         const currentDate = new Date();
-        // const 
+        
         let age = currentDate.getFullYear() - dob.getFullYear();
         
         const isBirthdayPassed = 
